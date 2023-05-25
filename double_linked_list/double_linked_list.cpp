@@ -66,5 +66,6 @@ void DoubleLinkedList::addNode() {
 	}
 
 	newNode->next = current->next;
+	newNode->prev = current;
 
 }
