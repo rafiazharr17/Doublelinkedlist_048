@@ -20,5 +20,6 @@ public:
 	bool search(int rollNo, node** previous, node** current);
 	bool deleteNode(int rollNo);
 	bool listEmpty();
+	void ascending();
 
 };
