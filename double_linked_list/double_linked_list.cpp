@@ -44,6 +44,8 @@ void DoubleLinkedList::addNode() {
 	newNode->name = nm;
 
 	if (START == NULL || nim <= START->noMhs) {
-		
+		if (START != NULL && nim == START->noMhs) {
+			
+		}
 	}
 }
