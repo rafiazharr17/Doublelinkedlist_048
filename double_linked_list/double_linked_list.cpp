@@ -15,4 +15,7 @@ private:
 	node* START;
 public:
 
+	DoubleLinkedList();
+	void addNode();
+
 };
