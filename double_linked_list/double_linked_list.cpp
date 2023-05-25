@@ -21,5 +21,6 @@ public:
 	bool deleteNode(int rollNo);
 	bool listEmpty();
 	void ascending();
+	void descending();
 
 };
