@@ -17,5 +17,6 @@ public:
 
 	DoubleLinkedList();
 	void addNode();
+	bool search(int rollNo, node** previous, node** current);
 
 };
